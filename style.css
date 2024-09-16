@@ -69,7 +69,8 @@ margin-left: 15px;
     flex-direction: column;
 }
 #name{
-    font-size: 13px;
+    font-size: 10px;
+    font-weight: 900;
     color: hsl(217, 19%, 35%);
 }
 .date{
