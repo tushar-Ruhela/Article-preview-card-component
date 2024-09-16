@@ -1,0 +1,233 @@
+body{
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: Manrope;
+}
+.main{
+    height: 400px;
+    width: 300px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(0,0%,100%);
+    border-radius: 5px;
+    margin: auto;
+    row-gap: 20px;
+    margin-top: 100px;
+}
+
+
+img{
+   height: 200px;
+   width: 300px;
+   border-top-left-radius: 5px;
+   border-top-right-radius:5px ;
+   margin-top: -50px;
+   
+}
+.about{
+   row-gap: 10px;
+   
+}
+h5{
+    margin: 0px;
+    font-size: 16px;
+    color: hsl(217, 19%, 35%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.profile-info{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 40px;
+margin-left: 15px;
+
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    margin-left:-50px ;
+
+}
+
+.desk-image{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 0px;
+
+}
+#Appleton{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+.date{
+    font-size: 10px;
+    color: hsl(0, 0%, 50%);
+}
+.logo{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: hsl(210, 46%, 95%);
+    margin-top: 0px;
+    cursor: pointer;
+}
+#sh{
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin: auto;
+    color:hsl(0, 0%, 100%);
+}
+.popup{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(217, 19%, 35%);
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    column-gap: 0px;
+    visibility:hidden;
+    margin-bottom: -80px;
+    z-index: 1;
+
+}
+.logo2{
+    height: 20px;
+    width: 20px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    margin: auto;
+    padding: 5px;
+}
+
+.shareopt{
+    margin:auto;
+    height: 20px;
+    width: 20px;
+}
+
+ .share{
+    height: 10px;
+    width: 20px;
+    margin-top: 7px;
+    
+    
+}
+@font-face {
+    font-family: Manrope;
+    src: url(fonts/Manrope-VariableFont_wght.ttf);
+}
+@media only screen and (min-width: 480px) and (max-width: 1475px) {
+    .main {
+        height: 250px;
+        width: 600px;  
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        margin-top: 100px;
+        position: relative;
+    }
+    img{
+        height: 250px;
+        width: 200px;
+        border-top-left-radius:5px;
+        border-top-right-radius:0px;
+        border-bottom-left-radius:5px ;
+        opacity: 0.9;
+        margin-top: auto;
+
+        
+     }
+     .about{
+        display:block;
+        
+     } 
+     
+     .profile-info{
+        column-gap: 90px;
+margin-top: 20px;
+     }    
+     h5{
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 70px;
+        margin-top: 20px;
+     }
+     p{
+        font-size: 13px;
+        padding-left: 40px;
+        padding-right: 70px;
+     }
+     .shareopt{
+    
+        height: 25px;
+        width: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    #sh{
+        letter-spacing: 5px;
+        font-size: 10px;
+        margin: auto;
+    }
+    .popup{
+        height: 30px;
+        width:180px;
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .logo{
+        margin-right: -65px;
+    }
+    .logo2{
+display: none;
+    }
+    
+    .shareopt{
+        margin:auto;
+        height: 15px;
+        width: 15px;
+    
+    }
+    .popup-box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 265px;
+        margin-top: -50px;
+        position: absolute;
+        
+    }
+    
+   
+    .triangle-down {
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid hsl(217, 19%, 35%);
+        margin-top: 80px;
+        margin-left: 85px;
+        visibility: hidden;
+      }
+    
+    
+
+}
