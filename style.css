@@ -99,7 +99,7 @@ margin-left: 15px;
     position: relative;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    column-gap: 0px;
+    column-gap: 5px;
     visibility:hidden;
     margin-bottom: -80px;
     z-index: 1;
@@ -114,9 +114,14 @@ margin-left: 15px;
     padding: 5px;
 }
 
+.logo2:hover{
+    cursor: pointer;
+}
+
 .shareopt{
-    margin:auto;
+   margin-top: 1.2em;
     height: 20px;
+    margin-left: 1em;
     width: 20px;
 }
 
@@ -126,6 +131,9 @@ margin-left: 15px;
     margin-top: 7px;
     
     
+}
+#sh:hover{
+  cursor: pointer;
 }
 @font-face {
     font-family: Manrope;
@@ -181,7 +189,13 @@ margin-top: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
+        
        
+    }
+    a{
+        margin-top: 0.5em;
+        margin-right: 1em;
     }
     #sh{
         letter-spacing: 5px;
